@@ -1,0 +1,30 @@
+.contact-dark-theme {
+  color: $colorGrisClaro;
+}
+
+.icons-container {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.textfield-content {
+  width: 100%;
+  margin: 10px;
+}
+.container-textfield-form {
+  padding-bottom: 15px;
+}
+
+.link-icon {
+  text-decoration: none;
+}
+
+.icon-dark-theme {
+  width: 100px;
+  padding: 10px;
+  color: $colorGrisClaro;
+}
+.icon-dark-theme:hover {
+  color: $colorGrisOscuro;
+}

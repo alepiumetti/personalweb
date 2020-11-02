@@ -1,0 +1,24 @@
+.img-header {
+  max-width: 300px;
+  width: 60%;
+  margin: 20px;
+  border-radius: 15px;
+  border-style: hidden;
+}
+
+.img-dark-theme {
+  box-shadow: 10px 10px $colorGrisClaro;
+}
+
+.container-title-header {
+  display: flex;
+  justify-content: center;
+}
+
+.div-title-header {
+  width: 80%;
+}
+
+.container-img-header {
+  text-align: center;
+}

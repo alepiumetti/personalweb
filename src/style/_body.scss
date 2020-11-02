@@ -1,0 +1,43 @@
+.container-web-yoop {
+  background-color: $colorAmarillo;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.container-checkout {
+  background-color: $colorVerde;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.container-arcovid-ros {
+  background-color: $colorRosa;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.container-blog-personal {
+  background-color: $colorGrisClaro;
+  padding: 15px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.text-proyects {
+  color: $colorGrisOscuro;
+  font-weight: normal;
+}
+
+.title-proyects {
+  font-weight: 900;
+  color: $colorGrisOscuro;
+}
+
+.container-proyects {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,57 @@
+@import "_colors";
+@import "_fonts";
+
+html {
+  font-family: "JetBrains Mono", Helvetica, sans-serif;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+  font-weight: lighter;
+}
+
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-theme {
+  background-color: $colorAzul;
+  color: $colorGrisClaro;
+}
+
+.light-theme {
+  background-color: $colorGrisClaro;
+  color: $colorGrisOscuro;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.border-white {
+  border: solid;
+  border-color: white;
+}
+
+@import "header";
+@import "body";
+@import "contact";
+@import "footer";
