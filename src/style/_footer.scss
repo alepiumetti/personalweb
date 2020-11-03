@@ -1,6 +1,16 @@
 .link-dark-theme {
   color: $colorGrisClaro;
 }
+.link-light-theme {
+  color: $colorGrisOscuro;
+}
+
+.link-dark-theme:hover {
+  color: $colorGrisOscuro;
+}
+.link-light-theme:hover {
+  color: $colorAzul;
+}
 
 .container-link {
   align-content: center;

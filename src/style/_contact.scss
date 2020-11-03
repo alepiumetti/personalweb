@@ -2,10 +2,15 @@
   color: $colorGrisClaro;
 }
 
+.contact-light-theme {
+  color: $colorGrisOscuro;
+}
+
 .icons-container {
   padding: 25px;
   display: flex;
   justify-content: center;
+  align-content: center;
 }
 
 .textfield-content {
@@ -27,4 +32,33 @@
 }
 .icon-dark-theme:hover {
   color: $colorGrisOscuro;
+}
+
+.button-dark-theme {
+  width: 100px;
+
+  color: $colorGrisClaro;
+}
+
+.button-dark-theme:hover {
+  color: $colorGrisOscuro;
+}
+
+.icon-light-theme {
+  width: 100px;
+  padding: 10px;
+  color: $colorGrisOscuro;
+}
+.icon-light-theme:hover {
+  color: $colorAzul;
+}
+
+.button-light-theme {
+  width: 100px;
+
+  color: $colorGrisOscuro;
+}
+
+.button-light-theme:hover {
+  color: $colorAzul;
 }

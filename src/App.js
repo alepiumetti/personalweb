@@ -11,22 +11,30 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   const [mode, setMode] = useState("dark-theme");
 
+  const changeMode = () => {
+    if (mode === "dark-theme") {
+      setMode("light-theme");
+    } else {
+      setMode("dark-theme");
+    }
+  };
+
   return (
     <Router>
       <Switch>
         <Route exact path="/">
           <Grid container spacing={0} className={"App " + mode}>
             <Grid item xs={12}>
-              <Header />
+              <Header mode={mode} />
             </Grid>
             <Grid item xs={12}>
-              <Body />
+              <Body mode={mode} />
             </Grid>
             <Grid item sm={6} xs={12}>
-              <Footer />
+              <Footer mode={mode} />
             </Grid>
             <Grid item sm={6} xs={12}>
-              <Contact />
+              <Contact setMode={changeMode} mode={mode} />
             </Grid>
           </Grid>
         </Route>

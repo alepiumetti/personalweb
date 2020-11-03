@@ -14,7 +14,7 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import TreeItem from "@material-ui/lab/TreeItem";
 import ScopedCssBaseline from "@material-ui/core/ScopedCssBaseline";
 
-export default function ResponsiveDialog() {
+export default function ResponsiveDialog(props) {
   const [open, setOpen] = React.useState(false);
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("sm"));
@@ -34,7 +34,7 @@ export default function ResponsiveDialog() {
         component="button"
         style={{ textDecoration: "none" }}
       >
-        <p className="link-dark-theme">¿Con qué está hecha esta página?</p>
+        <p className={"link-" + props.mode}>¿Con qué está hecha esta página?</p>
       </Link>
       <Dialog
         fullScreen={fullScreen}
