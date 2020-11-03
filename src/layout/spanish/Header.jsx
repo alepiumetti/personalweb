@@ -25,14 +25,13 @@ function Header(props) {
           </div>
           <br />
           <p>
-            Hace 2 años me lancé a trabajar por mi cuenta creando Yoop, en poco
-            tiempo logré muchas cosas pero principalmente aprendí muchisimo,
-            llevando a cabo desde el diseño, la creación de la web,
-            administración de la aplicación y el marketing del negocio.
+            En 2018 comencé a trabajar por mi cuenta en un proyecto personal
+            (Yoop), en ese tiempo aprendí mucho sobre el proceso: diseño y
+            creación de la web, administración de la aplicación y marketing.
           </p>
           <p>
-            Finalmente encontré mi fuerte por lo que hace un año qué estoy
-            programando en ReactJS y Firebase.
+            Un año después encontré mi fuerte: la combinación de ReactJs y
+            Firebase.
           </p>
         </div>
       </Grid>
