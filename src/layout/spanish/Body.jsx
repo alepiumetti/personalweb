@@ -32,9 +32,9 @@ function Body() {
 
           <p className="text-proyects">
             Creé y diseñé la nueva web de Yoop y el administrador de los datos
-            de la aplicación. Usando ReactJs, Material-UI y CSS3 para crear el
+            de la aplicación. Usé ReactJS, Material-UI y CSS3 para crear el
             FrontEnd y Firebase Database Realtime, Storage y Auth para el
-            administrador.
+            administrador respectivamente.
           </p>
           <p>
             <a
@@ -78,8 +78,8 @@ function Body() {
           </h2>
 
           <p className="text-proyects">
-            Implementé el Checkout Pro de MercadoPago con Express en un
-            E-Commerce Dummy.
+            Implementé el Checkout Pro a través del API de MercadoPago con
+            Express en un E-Commerce Dummy.
           </p>
         </div>
       </Grid>
@@ -100,8 +100,9 @@ function Body() {
           </h2>
 
           <p className="text-proyects">
-            Contribuí en el diseño e implementación en la muestra de datos sobre
-            el Covid en Argentina. (API Descontinuada)
+            Contribuí en el diseño e implementación en la muestra de datos de
+            una API colaborativa sobre el Covid en Argentina usando ReactJS y
+            Material UI. (API Descontinuada)
           </p>
         </div>
       </Grid>
@@ -127,8 +128,8 @@ function Body() {
           </p>
           <br />
           <p className="text-proyects">
-            En un futuro me gustaría hablar más de las cosas que uso e investigo
-            dentro del desarrollo web.
+            En el futuro voy a contar más de las cosas que uso cotidianamente e
+            investigo sobre el desarrollo web.
           </p>
         </div>
       </Grid>

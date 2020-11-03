@@ -10,14 +10,19 @@ function Header() {
           <div>
             <p style={{ marginBottom: "-4%" }}>Hola, soy</p>
             <h1>Alejandro Piumetti</h1>
-            <p style={{ marginTop: "-4%" }}>Desarrollador y emprendedor</p>
+            <p style={{ marginTop: "-4%" }}>
+              desarrollador y emprendedor autodidacta
+            </p>
           </div>
           <br />
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            sunt omnis iste enim eaque ad doloribus voluptatem molestias
-            deleniti facilis rerum nisi velit, alias quaerat qui officiis
-            perferendis blanditiis nam?
+            Hace 2 años me lancé a trabajar por mi cuenta creando Yoop, en poco
+            tiempo logré muchas cosas pero principalmente aprendí muchisimo,
+            llevando a cabo desde el diseño, la creación de la web,
+            administración de la aplicación y el marketing del negocio.
+            <br />
+            Finalmente encontré mi fuerte y pasión por lo que hace un año qué
+            estoy programando en ReactJS y Firebase.
           </p>
         </div>
       </Grid>
