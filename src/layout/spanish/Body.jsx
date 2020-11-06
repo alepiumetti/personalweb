@@ -38,7 +38,7 @@ function Body() {
           </p>
           <p>
             <a
-              href="https://yoop.com.ar/about"
+              href="https://tech-yoop.web.app/"
               target="_blank"
               style={{
                 textDecoration: "none",
