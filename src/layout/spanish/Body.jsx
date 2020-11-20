@@ -109,27 +109,31 @@ function Body() {
       <Grid className=" container-proyects" item sm={9} xs={12}>
         <div className="container-blog-personal">
           <h2 className="title-proyects">
-            Blog Personal{" "}
+            Dolar HOY
             <IconButton
               onClick={() => {
-                window.open("https://alepiumetti.github.io/blog/", "_blank");
+                window.open("https://github.com/alepiumetti/scraper", "_blank");
               }}
             >
-              <OpenInNewIcon />
+              <GitHub />
             </IconButton>
           </h2>
 
           <p className="text-proyects">
-            Escribo en un blog experiencias propias para personas que quieren
-            meterse en el mundo de la programación y están un poco
-            desorientados. Hablo desde un punto personal habiendo estado en ese
-            lugar hace poco tiempo y quiero dar una mano a quien lo esté pasando
-            ahora.
+            Creé una <a href="https://scraper-3c915.web.app/">web</a> para ver
+            la coticación del dólar en el día, hecha con HTML, CSS y JavaScript
+            Vanilla y hosteada en Firebase Hosting. Ésta consume datos de una
+            API propia.
           </p>
-          <br />
           <p className="text-proyects">
-            En el futuro voy a contar más de las cosas que uso cotidianamente e
-            investigo sobre el desarrollo web.
+            La <a href="https://api-scrapper.herokuapp.com/api/dolar">API</a>{" "}
+            está hosteada en Heroku, creada con ExpressJS. Para saber la
+            cotización del dólar, creé un scraper con CheerioJS y NodeJS que
+            "escanea" la web de{" "}
+            <a href="https://www.cronista.com/MercadosOnline/dolar.html">
+              El Cronista
+            </a>{" "}
+            y los guarda en un JSON.
           </p>
         </div>
       </Grid>
